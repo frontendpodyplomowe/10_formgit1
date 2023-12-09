@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cwiczenie projektowe 1</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
   </head>
   <body>
     <div class="form1">
       <h1>Strona kontaktowa</h1>
       <h2>formularz kontaktowy</h2>
-      <!-- Opis:
-Tytul (początkowy commit - "initial commit")
-imie ok
-haslo ok 
-email (obowiazkowe) ok
-ile lat doswiadczenia (wybierz jakis numer) <<
-Opisz sprawę (textarea): 
-Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
+    
       <form>
         <div class="setName">
           <label id="title1" for="field1">Podaj imię:</label>
@@ -31,6 +31,8 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
           id="field2"
           title="Minimum 8 znakow, jedna cyfra i znak specjalny"
         /><br />
+        <i class="fa-solid fa-eye" id="pokazhaslo" style="cursor: pointer;"></i><br />
+        
         <label id="title3" for="field3">Podaj email:</label>
         <input type="email" id="field3" autofocus required /><br />
         <label id="title4" for="field4">Ile masz lat doświadczenia?</label>
@@ -42,5 +44,7 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
       </form>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
