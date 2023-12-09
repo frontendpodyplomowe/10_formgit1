@@ -20,3 +20,13 @@ form label[id=title1] {
     border: 5px dashed darkblue;
     width: 500px;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(98, 95, 95);
+    color: white;
+    text-align: center;
+  }
