@@ -8,8 +8,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-        <h1>Strona kontaktowa ALK</h1>
+    <div class="form1">
+      <h1>Strona kontaktowa</h1>
+      <h2>formularz kontaktowy</h2>
+      <!-- Opis:
+Tytul (początkowy commit - "initial commit")
+imie ok
+haslo ok 
+email (obowiazkowe) ok
+ile lat doswiadczenia (wybierz jakis numer) <<
+Opisz sprawę (textarea): 
+Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
+      <form>
+        <div class="setName">
+          <label id="title1" for="field1">Podaj imię:</label>
+          <input type="text" id="field1" placeholder="imię pracownika" /><br />
+        </div>
+
+        <label id="title2" for="field2">Podaj hasło:</label>
+        <input
+          type="password"
+          id="field2"
+          title="Minimum 8 znakow, jedna cyfra i znak specjalny"
+        /><br />
+        <label id="title3" for="field3">Podaj email:</label>
+        <input type="email" id="field3" autofocus required /><br />
+        <label id="title4" for="field4">Ile masz lat doświadczenia?</label>
+        <input type="number" id="field4" value="0" /><br />
+        <label id="title5" for="field5">Opisz swoją karierę zawodową:</label
+        ><br />
+        <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea
+        ><br />
+        <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
+      </form>
     </div>
   </body>
 </html>
