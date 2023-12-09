@@ -5,9 +5,22 @@ div h1 {
     text-align: center;
 }
 
-form input[type=text] {
-    background-color: yellow;
+form input {
+    background: rgba(211, 211, 211, 0.2);
+    margin: 4px;
+    padding: 8px;
     width: 200px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+form textarea {
+    background: rgba(211, 211, 211, 0.2);
+    margin: 4px;
+    padding: 8px;
+    min-width: 400px;
+    max-width: 80%;
+    min-height: 100px;
 }
 
 form label[id=title1] {
