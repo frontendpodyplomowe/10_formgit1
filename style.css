@@ -16,6 +16,22 @@ form label[id="title1"] {
   font-family: "Courier New", Courier, monospace;
 }
 
+=======
+form input[type="submit"] {
+  background-color: pink;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  border: 2px solid black;
+  padding: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+form input[type="submit"]:hover {
+  background-color: orange;
+}
+
+
 .setName {
   border: 5px dashed darkblue;
   width: 500px;
