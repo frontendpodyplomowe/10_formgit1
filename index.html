@@ -6,45 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cwiczenie projektowe 1</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
   </head>
   <body>
     <div class="form1">
       <h1>Strona kontaktowa</h1>
       <h2>formularz kontaktowy</h2>
-    
       <form>
         <div class="setName">
           <label id="title1" for="field1">Podaj imię:</label>
           <input type="text" id="field1" placeholder="imię pracownika" /><br />
         </div>
-
         <label id="title2" for="field2">Podaj hasło:</label>
-        <input
-          type="password"
-          id="field2"
-          title="Minimum 8 znakow, jedna cyfra i znak specjalny"
-        /><br />
+        <input type="password" id="field2" title="Minimum 8 znakow, jedna cyfra i znak specjalny"/><br />
         <i class="fa-solid fa-eye" id="pokazhaslo" style="cursor: pointer;"></i><br />
-        
         <label id="title3" for="field3">Podaj email:</label>
         <input type="email" id="field3" autofocus required /><br />
         <label id="title4" for="field4">Ile masz lat doświadczenia?</label>
         <input type="number" id="field4" value="0" /><br />
-        <label id="title5" for="field5">Opisz swoją karierę zawodową:</label
-        ><br />
-        <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea
-        ><br />
+        <label id="title5" for="field5">Opisz swoją karierę zawodową:</label><br />
+        <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea><br />
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
       </form>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
