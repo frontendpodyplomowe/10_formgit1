@@ -30,7 +30,58 @@ form label[id="title1"] {
   font-family: "Courier New", Courier, monospace;
 }
 
-=======
+
+.setName{
+    border: 5px dashed darkblue;
+    width: 500px;
+}
+
+/* footer */
+
+*{
+	margin: 0;
+}
+
+.footer-img {
+	position: relative;
+	height: 150px;
+	background-image: url('./img/fireworks-804838_1280\ \(3\).jpg');
+	border-top: solid 3px black;
+	background-size: cover;
+	background-position: right;
+	z-index: 1;
+}
+.footer-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #f5eeee;
+	font-size: 18px;
+	z-index: 5;
+}
+.footer-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(10, 3, 27, 0.5);
+	z-index: 3;
+}
+.icon-box {
+	margin-left: 20px;
+}
+
+.icon-box a {
+	margin: 0 5px;
+	color: #ddd;
+	font-size: 25px;
+	transition: color 0.6s;
+}
+.icon-box a:hover {
+	color: #c25e5e;
+}
+
+
 form input[type="submit"] {
   background-color: pink;
   transition: background-color 0.3s;
@@ -56,3 +107,4 @@ label {
   font-size: 1.3rem;
   margin: 0.5rem;
 }
+
