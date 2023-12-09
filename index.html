@@ -42,5 +42,17 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
       </form>
     </div>
+    <div class="zyczenia">
+      <h3>Złóż życzenia swoim najbiższym</h3>
+      <form>
+        <label for="adresat">Imię adresata:</label><br>
+        <input type="text" name="adresat" id="adresat"><br>
+        <label for="email_adresata">Email adresata:</label><br>
+        <input type="email" name="email_adresata" id="email_adresata" autofocus required><br>
+        <label for="tresc">Treść życzeń</label><br>
+        <textarea name="tresc" id="tresc" cols="50" rows="10" spellcheck="true"></textarea><br>
+        <input type="submit" name="send" id="send" value="Wyślij życzenia">
+      </form>
+    </div>
   </body>
 </html>
