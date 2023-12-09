@@ -21,8 +21,8 @@ form label[id="title1"] {
   width: 500px;
 }
 
-form label[id=titlePhone] {
-    font-size: 18px;
+form label[id="titlePhone"] {
+  font-size: 18px;
 }
 
 form input[type="tel"] {
