@@ -30,7 +30,20 @@ form label[id="title1"] {
   font-family: "Courier New", Courier, monospace;
 }
 
-=======
+.setName{
+    border: 5px dashed darkblue;
+    width: 500px;
+}
+
+.zyczenia label{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zyczenia input[type=text]{
+    background-color: white;
+}
+
 form input[type="submit"] {
   background-color: pink;
   transition: background-color 0.3s;
